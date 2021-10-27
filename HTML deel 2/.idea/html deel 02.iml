@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$APPLICATION_CONFIG_DIR$/html deel 02">
+      <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/html deel 02/.tmp" />
+      <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/html deel 02/temp" />
+      <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/html deel 02/tmp" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
