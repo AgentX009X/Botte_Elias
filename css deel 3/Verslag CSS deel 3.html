@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" charset="utf-8"
+            src="scripts/code.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<header>Opdracht 1</header>
+<p>De chrome developer tools zorgen ervoor dat je snel problematische regels kan opsporen. Bij Styles kan je snel regels aanpassen en bij computed kan je zien welke regels elkaar aan het overschrijven zijn.</p>
+    <a href="screenshots/Opdracht%201.JPG">screenshot</a>
+
+<header>Opdracht 2</header>
+<h3>Zijn alle properties die de generator voorziet werkelijk nodig? Probeer dit uit.</h3>
+<p>Neen, bepaalde properties zijn eigenlijk gewoon de default settings van een tabel die automatisch zijn toegekend door de tabelgenerator.
+De generator gebruikt voor bepaalde properties een browser prefix. Zijn die voor jouw browser (nog steeds) nodig?
+    Voor bepaalde properties wel, maar voor anderen niet. Bijvoorbeeld bij Border radius hoeft dit niet meer, maar bij gradient moet dit wel nog steeds.</p>
+
+<header>Opdracht 3</header>
+<h3>De generator geeft de elementen van elke even rij een 'alt' class: ... De generator voorziet de cellen in deze rijen van een andere achtergrondkleur, zoek op waar dit precies staat in de gegenereerde CSS.</h3>
+<p>Dit staat onder .datagrid table tbody .alt td{ background: #000000; color: #E010BE}.
+Waarom heeft de volgende CSS regel: .onbekend {background-color:red;} geen effect als je deze toepast op een cel in een rij met class="alt", maar wel in een rij zonder deze 'alt' class? Hint: het heeft te maken met de specificiteit van de regels.
+De regel waarin class=”alt” staat bevat 2 Klassen wat al automatisch de .onbekend class overheerst.</p>
+
+</body>
+</html>
