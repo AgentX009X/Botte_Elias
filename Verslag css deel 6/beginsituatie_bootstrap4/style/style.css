@@ -1,0 +1,12 @@
+.licht{
+    background-color: darkgray;
+}
+.donker{
+    background-color: grey;
+}
+
+.row{
+    margin-bottom: 10px;
+    height: 200px;
+}
+
